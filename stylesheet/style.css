@@ -30,7 +30,7 @@ hr {
 }
 
 input[type='file'] {
-  padding:80px 80px;
+  padding:80px 10px;
   cursor:pointer;
   width:100%;
   text-align:center;
@@ -45,5 +45,9 @@ input[type='submit'] {
   border:0;
   padding:10px;
 }
-
+@media (min-width:768px) {
+  input[type='file'] {
+    padding:80px 80px;
+  }
+}
 
