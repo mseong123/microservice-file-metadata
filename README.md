@@ -1,3 +1,3 @@
 # File Metadata Microservice
 
-This is the boilerplate for the File Metadata Microservice project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/file-metadata-microservice
+This service accepts a single file upload and will return a JSON object with name, type and size(in bytes) properties of the uploaded file.

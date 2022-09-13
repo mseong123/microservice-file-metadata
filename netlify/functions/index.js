@@ -13,7 +13,6 @@ app.use(cors({ optionsSuccessStatus: 200 })); // some legacy browsers choke on 2
 
 //API endpoint
 app.post('/api/fileanalyse', upload.single('upfile'),function (req, res) {
-  console.log(req.file)
   res.json({
     name:req.file.originalname,
     type:req.file.mimetype,
